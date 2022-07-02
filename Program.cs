@@ -1,5 +1,5 @@
-﻿// введение числа и возведение его в квадрат
-Console.Write("введите число ");
-int a=int.Parse(Console.ReadLine());
-Console.Write("квадрат числа= ");
-Console.WriteLine(a*a);
+﻿// возведение в квадрат числа сгенирированного компьютером
+int numberA=new Random().Next(12,20);
+Console.WriteLine(numberA);
+int product= numberA*numberA;
+Console.WriteLine(product);
